@@ -24,7 +24,9 @@ jobs:
           java-version: "17"
 
       - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
+        uses: android-actions/setup-android@v4
+        with:
+              packages: 'platform-tools'
 
       - name: Install Android 36 platform
         run: sdkmanager "platforms;android-36" "build-tools;35.0.0"
