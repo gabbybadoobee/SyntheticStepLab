@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Synthetic Step Lab</string>
+    <string name="title">Synthetic Step Lab</string>
+    <string name="study_notice">Study-only synthetic data. This app writes 1 step to Health Connect approximately every 2 seconds while the generator is running.</string>
+    <string name="health_status_unknown">Health Connect status: checking…</string>
+    <string name="permission_status_unknown">Write permission: checking…</string>
+    <string name="generated_count">Steps inserted this session: 0</string>
+    <string name="request_permission">Grant Health Connect permission</string>
+    <string name="start">Start synthetic steps</string>
+    <string name="stop">Stop</string>
+    <string name="open_health_connect">Open Health Connect</string>
+    <string name="rationale_title">Why Synthetic Step Lab requests step write access</string>
+    <string name="rationale_body">Synthetic Step Lab is a local study utility. It requests permission only to write synthetic step records to Health Connect when you press Start. It does not request permission to read your Health Connect data. The generated records are attributed to Synthetic Step Lab and remain under Health Connect’s normal user controls, where you can review or delete them.</string>
+    <string name="close">Close</string>
+</resources>
