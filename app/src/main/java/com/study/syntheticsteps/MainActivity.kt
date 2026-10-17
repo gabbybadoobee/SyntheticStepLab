@@ -28,7 +28,7 @@ class MainActivity : ComponentActivity() {
 
     companion object {
         private const val HEALTH_CONNECT_PACKAGE = "com.google.android.apps.healthdata"
-        private const val STEP_INTERVAL_MS = 2_000L
+        private const val STEP_INTERVAL_MS = 1_000L
     }
 
     private val writeStepsPermission = HealthPermission.getWritePermission(StepsRecord::class)
@@ -206,7 +206,7 @@ class MainActivity : ComponentActivity() {
                     )
 
                     val record = StepsRecord(
-                        count = 1,
+                        count = 1000,
                         startTime = startTime,
                         endTime = endTime,
                         startZoneOffset = ZoneId.systemDefault().rules.getOffset(startTime),
